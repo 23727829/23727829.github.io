@@ -301,6 +301,14 @@ nav ul li a:hover::after{
 	color:#ff004f;
 	transform: translateY(-5px);
 }
+.btn.btn1{
+	display: inline-block;
+	background:#ff004f;
+}
+.btn.btn1:hover{
+	background-color: transparent;
+  color: #fff;
+}
 .btn.btn2{
 	display: inline-block;
 	background:#ff004f;
@@ -616,6 +624,12 @@ ul{
 	 .sub-title{
 		 font-size:40px;
 	 }
+	 .btn.btn1{
+		 margin-top: -10px ;
+		 margin-bottom:150px ;
+		 padding:0 px;
+		 position: absolute ;
+	 }
 	 .about-col1, .about-col2{
 		 flex-basis:100%;
 	 }
@@ -625,6 +639,7 @@ ul{
 	 .about-col2{
 		 font-size:14px;
 	 }
+	
 	 .tab-links{
 		 font-size:16px;
 		 margin-right:20px;
